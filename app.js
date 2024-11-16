@@ -59,7 +59,7 @@ const checkWinner = (currentPlayer, a, b, c) => {
         if(currentPlayer === 'X'){
             currentPlayer = "Player 1";
         } else {
-            currentPlayer = "PLayer 2";
+            currentPlayer = "Player 2";
         }
 
         $('#alertWinner').text(`GAME OVER...${currentPlayer} WINS!`)
